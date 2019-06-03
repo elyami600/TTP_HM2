@@ -1,0 +1,64 @@
+body{
+
+
+}
+.main-hover{
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+
+    cursor: pointer;
+
+}
+
+
+
+
+footer{
+    background-color:#d0d6e2 ;
+    text-align:right;
+    height: 20px;
+    margin-top: 100%;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #0499ff;
+}
+a:hover {
+    color: #6633ff;
+}
+.nav {
+    background-color: #45526e;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.nav .name {
+    display: none;
+}
+.nav li {
+
+    padding: 5px 10px 10px 10px;
+}
+.nav a {
+    transition: all .5s;
+}
+.nav a:hover {
+    color: white
+}

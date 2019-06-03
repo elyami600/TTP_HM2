@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Challenges</title>
+    <link rel="stylesheet" type="text/css" href="hoverme.css">
+</head>
+<body>
+<div class="main-nac">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="hoverme.html">hover</a></li>
+            <li><a href="form.html">sign in</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div>
+    <h1>Yamil Perez</h1>
+</div>
+
+<header>
+
+
+</header>
+
+
+<main>
+    <button style="font-size: 20px; color: cadetblue; margin: 10px" class="dontHover"  onmouseover="letHoverme()">Do not bother me</button>
+
+
+
+
+</main>
+
+
+
+
+<script>
+    let letHoverme = () =>{
+        alert("please, do not hover over me");
+        document.getElementById("dontHover" ).innerText = "asasasaassassassszsas";
+
+        alert(document.getElementById("dontHover").innerHTML);
+
+    }
+
+
+</script>
+
+<footer>
+    <p>&copy; Yamil Perez.</p>
+</footer>
+
+
+</body>
+</html>

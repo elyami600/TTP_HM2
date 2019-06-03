@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>DOM Challenges</title>
     <link href="form.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="login.js" ></script>
 </head>
 <body>
 <div class="main-nac">
@@ -11,7 +12,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">hover</a></li>
+            <li><a href="hoverme.html">Alert</a></li>
             <li><a href="form.html">sign in</a></li>
         </ul>
     </nav>
@@ -27,27 +28,37 @@
 
 
 <main class="main-form">
+    <header>
+        <img  class="perfil-img" src="images/image-login.jpeg" alt="Loadinf image">
+        
+    </header>
+    
     <div>
-        <form action="submission.html" method="GET">
+        <form  action="submission.htm" method="GET" id="form">
             <label for="username">Username</label>
             <br>
-            <input id="username" name="usermane" type="text" required minlength="4" maxlength="15">
+            <input id="username" name="usermane" type="text"  required minlength="4" maxlength="15">
+            <br>
+            <br>
+            <label id="email">Email</label>
+            <br>
+            <input id="email" name="email" type="text"  required>
+            <br>
             <br>
             <label for="pw">Password</label>
             <br>
             <input id="pw" name="pw" type="text" required minlength="4" maxlength="15">
             <br>
             <br>
-            <input type="submit" value="Submt">
+            <button type="submit" value="login" onclick="javascript:logingIng()" >Submit</button>
+
 
         </form>
     </div>
 
 </main>
 
-<script>
 
-</script>
 
 <footer>
     <p>&copy; Yamil Perez.</p>
@@ -55,4 +66,8 @@
 
 
 </body>
+
+<script src="login.js">
+
+</script>
 </html>

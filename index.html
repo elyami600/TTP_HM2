@@ -3,35 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>DOM Challenges</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="main-nac">
+<div class="main-nav">
     <nav>
-        <ul>
+        <ul class="nav">
+            <li class="name">Yamil Perez</li>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="hoverme.html">About</a></li>
             <li><a href="#">hover</a></li>
             <li><a href="form.html">sign in</a></li>
         </ul>
     </nav>
 </div>
 
-<div>
-    <h1>Yamil Perez</h1>
-</div>
+<main class="main-hover">
+    <header>
+        <button class="button"  onclick="makeChange()">Start</button>
+        <br>
+        <button class="button"onclick="makeChange1()">finally</button>
 
-<header>
-    <button style="font-size: 20px; color: cadetblue; margin: 10px" class="Start"  onclick="makeChange()">Start</button>
-    <br>
-    <button style="font-size: 20px; color: cadetblue; margin: 10px" class="Second"onclick="makeChange1()">finally</button>
+    </header>
 
-
-</header>
-
-
-<main>
     <p id="right"></p>
-    <p id="notright"></p>
+
 
 
 </main>
@@ -47,7 +43,7 @@
 
     let makeChange1 = () => {
 
-        document.getElementById("notright").innerText = "I'm no right";
+        document.getElementById("right").innerText = "I'm no right";
 
     }
 
