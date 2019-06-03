@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Challenges</title>
+</head>
+<body>
+<div class="main-nac">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">hover</a></li>
+            <li><a href="form.html">sign in</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div>
+    <h1>Yamil Perez</h1>
+</div>
+
+<header>
+    <button style="font-size: 20px; color: cadetblue; margin: 10px" class="Start"  onclick="makeChange()">Start</button>
+    <br>
+    <button style="font-size: 20px; color: cadetblue; margin: 10px" class="Second"onclick="makeChange1()">finally</button>
+
+
+</header>
+
+
+<main>
+    <p id="right"></p>
+    <p id="notright"></p>
+
+
+</main>
+
+<script>
+    console.log("This is the future web and will change the world");
+    let makeChange = () => {
+
+        document.getElementById("right").innerText = "I'm right";
+
+
+    }
+
+    let makeChange1 = () => {
+
+        document.getElementById("notright").innerText = "I'm no right";
+
+    }
+
+</script>
+
+<footer>
+    <p>&copy; Yamil Perez.</p>
+</footer>
+
+
+</body>
+</html>
