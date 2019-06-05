@@ -16,20 +16,7 @@ body{
     display: inline;
     font-size: 16px;
     margin: 4px 2px;
-
     cursor: pointer;
-
-}
-
-
-
-
-footer{
-    background-color:#d0d6e2 ;
-    text-align:right;
-    height: 20px;
-    margin-top: 100%;
-
 
 }
 
@@ -53,7 +40,6 @@ a:hover {
     display: none;
 }
 .nav li {
-
     padding: 5px 10px 10px 10px;
 }
 .nav a {
@@ -61,4 +47,14 @@ a:hover {
 }
 .nav a:hover {
     color: white
+}
+
+
+footer{
+    background-color:#d0d6e2 ;
+    text-align:right;
+    height: 20px;
+    margin-top: 100%;
+
+
 }
