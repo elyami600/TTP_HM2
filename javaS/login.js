@@ -1,6 +1,6 @@
 
 function logingIng() {
-
+    document.getElementById("successfully_sign").innerText = "Successfully"
 
 
 }
